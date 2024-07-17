@@ -14,7 +14,7 @@ def get_db():
 
 @app.get("/")
 def read_root():
-    return {"Please": "Hello"}
+    return {"Please": "change"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, db: Session = Depends(get_db)):
