@@ -11,4 +11,4 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   storageClassName: standard
   hostPath:
-    path: "/mnt/d/code/finalproject/database"  # 수정: 호스트 시스템의 실제 경로로 변경
+    path: "/mnt/d/code/final_project/k8s/database"  # 수정: 호스트 시스템의 실제 경로로 변경
