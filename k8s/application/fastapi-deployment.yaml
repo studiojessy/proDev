@@ -4,7 +4,7 @@ metadata:
   name: fastapi-app
   namespace: final-3tier
 spec:
-  replicas: 3  # 수정: 필요한 복제본 수로 조정
+  replicas: 4  # 수정: 필요한 복제본 수로 조정
   selector:
     matchLabels:
       app: fastapi-app
