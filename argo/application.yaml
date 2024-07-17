@@ -9,12 +9,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/studiojessy/pro-pro.git
+    repoURL: https://github.com/studiojessy/new-pro.git
     targetRevision: HEAD
-    path: .
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: my-app
   syncPolicy:
     automated:
       prune: true
